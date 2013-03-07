@@ -584,7 +584,6 @@ a[href="my_view_page.php"]:before {
     position:absolute;
     right:65px;
     top:-27px;
-    content:'\2606  \272A  \2605';
     color:#FFD700;
     font-size:18px;
 
@@ -597,7 +596,6 @@ a[href="my_view_page.php"]:after {
     position:absolute;
     right:0;
     top:-23px;
-    content:'rockstar';
     color:#999;
     font-weight:bold;
     font-style:italic;
