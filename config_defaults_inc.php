@@ -317,25 +317,25 @@
 	 * Administrator Email address
 	 * @global string $g_administrator_email
 	 */
-	$g_administrator_email	= 'administrator@example.com';
+	$g_administrator_email	= 'cubeflick@gmail.com';
 
 	/**
 	 * Webmaster email
 	 * @global string $g_webmaster_email
 	 */
-	$g_webmaster_email		= 'webmaster@example.com';
+	$g_webmaster_email		= 'cubeflick@gmail.com';
 
 	/**
 	 * the sender email, part of 'From: ' header in emails
 	 * @global string $g_from_email
 	 */
- 	$g_from_email			= 'noreply@example.com';
+ 	$g_from_email			= 'noreply@cubeflick.com';
 
 	/**
 	 * the sender name, part of 'From: ' header in emails
 	 * @global string $g_from_name
 	 */
-	$g_from_name			= 'Mantis Bug Tracker';
+	$g_from_name			= 'Cubeflick PM';
 
 	/**
 	 * the return address for bounced mail
@@ -725,7 +725,7 @@
 	 * browser window title
 	 * @global string $g_window_title
 	 */
-	$g_window_title			= 'MantisBT';
+	$g_window_title			= 'Cubeflick PM';
 
 	/**
 	 * title at top of html page (empty by default, since there is a logo now)
