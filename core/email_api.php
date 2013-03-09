@@ -945,7 +945,7 @@ function email_send( $p_email_data ) {
 			break;
 	}
 
-	$mail->IsHTML( false );              # set email format to plain text
+	$mail->IsHTML( true );              # set email format to plain text
 	$mail->WordWrap = 80;              # set word wrap to 50 characters
 	$mail->Priority = $t_email_data->metadata['priority'];  # Urgent = 1, Not Urgent = 5, Disable = 0
 	$mail->CharSet = $t_email_data->metadata['charset'];
