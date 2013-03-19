@@ -482,7 +482,7 @@ function email_send_confirm_hash_url( $p_user_id, $p_confirm_hash ) {
 		return;
 	}
 
-	lang_push( user_pref_get_language( $p_user_id ) );
+	//lang_push( user_pref_get_language( $p_user_id ) );
 
 	# retrieve the username and email
 	$t_username = user_get_field( $p_user_id, 'username' );
